@@ -1,0 +1,102 @@
+.container {
+    
+    
+    margin-top: 10px;
+    display: -ms-flexbox;
+    margin-left: 25%;
+    margin-right: 28%;
+    background-color: #ccc;
+    padding-left: 115px;
+    padding-bottom: 100px;
+    padding-top: 60px;
+}
+.btn {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 100px;
+    font-size: 25px;
+    background-color: rgb(55, 55, 240);
+    color: white;
+    border: none;
+}
+.order {
+    
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight:600;
+
+}
+#selor {
+    border-color: white;
+    border-radius: 8px;
+    height: 40px;
+    width: 416px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+#price {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+ #table {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+ }
+ #tables {
+    border-color: white;
+    border-radius: 8px;
+    height: 40px;
+    width: 416px;
+    margin-left: 20px;
+    font-size: 18px;
+ }
+ #num {
+    border-color: white;
+    border-radius: 8px;
+    height: 35px;
+    margin-left: 20px;
+    font-size: 18px;
+    width: 408px;
+ }
+
+ .container1 {
+    margin-top: 10px;
+    display: -ms-flexbox;
+    margin-left: 25%;
+    margin-right: 28%;
+    background-color: #ccc;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 10px;
+ }
+ #buttn{
+    margin-left: 100px;
+    
+    height: 20px;
+    width: 60px;
+    background-color: rgb(55, 55, 240);
+    color: white;
+    border: none;
+    border-radius: 4px;
+ }
+ #list {
+    font-size: large;
+    margin-top: 2px;
+ }
+.header {
+    display: flex;
+    justify-content: center;
+    border-style:double;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    background-color: tomato;
+    font-family: cursive;
+    font-size: 60px;
+}
+.body {
+    background-image: url("bg.jpg");
+    
+}
