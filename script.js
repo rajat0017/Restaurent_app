@@ -9,7 +9,7 @@ var addbtn= document.getElementById('btn1');
 
 
 window.addEventListener('DOMContentLoaded', ()=> {
-   axios.get("https://crudcrud.com/api/a5da997605d644e08c9793b01f942e3e/orders")
+   axios.get("https://crudcrud.com/api/f6977090dd9e4a58b65635b883c8120b/orders")
    .then((response)=> {
        
        console.log(response)
@@ -37,7 +37,7 @@ function backendcall() {
       price :price.value ,
       table_no :tabno.value
    };
-   axios.post("https://crudcrud.com/api/a5da997605d644e08c9793b01f942e3e/orders", myobj)
+   axios.post("https://crudcrud.com/api/f6977090dd9e4a58b65635b883c8120b/orders", myobj)
    .then((response)=>{
       console.log(response);
    })
@@ -65,7 +65,7 @@ function addtoscreen(myobj){
 
    dltbtn.onclick=()=> {
       container1.removeChild(li);
-            axios.delete(`https://crudcrud.com/api/a5da997605d644e08c9793b01f942e3e/orders/${myobj._id}`)
+            axios.delete(`https://crudcrud.com/api/f6977090dd9e4a58b65635b883c8120b/orders/${myobj._id}`)
             .then((response)=>{
                console.log(response);
             })
@@ -86,7 +86,7 @@ function addtoscreen(myobj){
    
    dltbtn.onclick=()=> {
       container2.removeChild(li);
-            axios.delete(`https://crudcrud.com/api/a5da997605d644e08c9793b01f942e3e/orders/${myobj._id}`)
+            axios.delete(`https://crudcrud.com/api/f6977090dd9e4a58b65635b883c8120b/orders/${myobj._id}`)
             .then((response)=>{
                console.log(response);
             })
@@ -107,7 +107,7 @@ function addtoscreen(myobj){
          
          dltbtn.onclick=()=> {
             container3.removeChild(li);
-            axios.delete(`https://crudcrud.com/api/a5da997605d644e08c9793b01f942e3e/orders/${myobj._id}`)
+            axios.delete(`https://crudcrud.com/api/f6977090dd9e4a58b65635b883c8120b/orders/${myobj._id}`)
             .then((response)=>{
                console.log(response);
             })
@@ -128,7 +128,7 @@ function addtoscreen(myobj){
             
             dltbtn.onclick=()=> {
                container4.removeChild(li);
-            axios.delete(`https://crudcrud.com/api/a5da997605d644e08c9793b01f942e3e/orders/${myobj._id}`)
+            axios.delete(`https://crudcrud.com/api/f6977090dd9e4a58b65635b883c8120b/orders/${myobj._id}`)
             .then((response)=>{
                console.log(response);
             })
